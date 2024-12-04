@@ -1,0 +1,329 @@
+Test 3.1: test esecuzione singola mossa 
+1 . 2 . . . . 3 . . 
+. . 2 . . . . 3 . . 
+. . . . . . . . . . 
+2 . . 1 . . . . . 2 
+. . . . . . . 1 . . 
+. 3 3 3 . . . . . . 
+. . . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . . . . . . 3 . . 
+
+#navi: 9
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 1, 2 ):Colpita nave TWO
+1 . 2 . . . . 3 . . 
+. . b . . . . 3 . . 
+. . . . . . . . . . 
+2 . . 1 . . . . . 2 
+. . . . . . . 1 . . 
+. 3 3 3 . . . . . . 
+. . . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . . . . . . 3 . . 
+
+#navi: 9
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 1, 3 ):Acqua
+1 . 2 . . . . 3 . . 
+. . b X . . . 3 . . 
+. . . . . . . . . . 
+2 . . 1 . . . . . 2 
+. . . . . . . 1 . . 
+. 3 3 3 . . . . . . 
+. . . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . . . . . . 3 . . 
+
+#navi: 9
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 1, 4 ):Acqua
+1 . 2 . . . . 3 . . 
+. . b X X . . 3 . . 
+. . . . . . . . . . 
+2 . . 1 . . . . . 2 
+. . . . . . . 1 . . 
+. 3 3 3 . . . . . . 
+. . . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . . . . . . 3 . . 
+
+#navi: 9
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 3, 2 ):Acqua
+1 . 2 . . . . 3 . . 
+. . b X X . . 3 . . 
+. . . . . . . . . . 
+2 . X 1 . . . . . 2 
+. . . . . . . 1 . . 
+. 3 3 3 . . . . . . 
+. . . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . . . . . . 3 . . 
+
+#navi: 9
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 3, 3 ):Affondata nave ONE
+1 . 2 . . . . 3 . . 
+. . b X X . . 3 . . 
+. . . . . . . . . . 
+2 . X a . . . . . 2 
+. . . . . . . 1 . . 
+. 3 3 3 . . . . . . 
+. . . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . . . . . . 3 . . 
+
+#navi: 8
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 3, 5 ):Acqua
+1 . 2 . . . . 3 . . 
+. . b X X . . 3 . . 
+. . . . . . . . . . 
+2 . X a . X . . . 2 
+. . . . . . . 1 . . 
+. 3 3 3 . . . . . . 
+. . . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . . . . . . 3 . . 
+
+#navi: 8
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 0, 2 ):Affondata nave TWO
+1 . b . . . . 3 . . 
+. . b X X . . 3 . . 
+. . . . . . . . . . 
+2 . X a . X . . . 2 
+. . . . . . . 1 . . 
+. 3 3 3 . . . . . . 
+. . . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . . . . . . 3 . . 
+
+#navi: 7
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 0, 0 ):Affondata nave ONE
+a . b . . . . 3 . . 
+. . b X X . . 3 . . 
+. . . . . . . . . . 
+2 . X a . X . . . 2 
+. . . . . . . 1 . . 
+. 3 3 3 . . . . . . 
+. . . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . . . . . . 3 . . 
+
+#navi: 6
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 0, 7 ):Colpita nave THREE
+a . b . . . . c . . 
+. . b X X . . 3 . . 
+. . . . . . . . . . 
+2 . X a . X . . . 2 
+. . . . . . . 1 . . 
+. 3 3 3 . . . . . . 
+. . . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . . . . . . 3 . . 
+
+#navi: 6
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 1, 7 ):Colpita nave THREE
+a . b . . . . c . . 
+. . b X X . . c . . 
+. . . . . . . . . . 
+2 . X a . X . . . 2 
+. . . . . . . 1 . . 
+. 3 3 3 . . . . . . 
+. . . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . . . . . . 3 . . 
+
+#navi: 6
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 9, 7 ):Affondata nave THREE
+a . b . . . . c . . 
+. . b X X . . c . . 
+. . . . . . . . . . 
+2 . X a . X . . . 2 
+. . . . . . . 1 . . 
+. 3 3 3 . . . . . . 
+. . . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . . . . . . c . . 
+
+#navi: 5
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 9, 5 ):Acqua
+a . b . . . . c . . 
+. . b X X . . c . . 
+. . . . . . . . . . 
+2 . X a . X . . . 2 
+. . . . . . . 1 . . 
+. 3 3 3 . . . . . . 
+. . . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . . . . X . c . . 
+
+#navi: 5
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 9, 2 ):Acqua
+a . b . . . . c . . 
+. . b X X . . c . . 
+. . . . . . . . . . 
+2 . X a . X . . . 2 
+. . . . . . . 1 . . 
+. 3 3 3 . . . . . . 
+. . . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . X . . X . c . . 
+
+#navi: 5
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 6, 1 ):Acqua
+a . b . . . . c . . 
+. . b X X . . c . . 
+. . . . . . . . . . 
+2 . X a . X . . . 2 
+. . . . . . . 1 . . 
+. 3 3 3 . . . . . . 
+. X . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . X . . X . c . . 
+
+#navi: 5
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 5, 1 ):Colpita nave THREE
+a . b . . . . c . . 
+. . b X X . . c . . 
+. . . . . . . . . . 
+2 . X a . X . . . 2 
+. . . . . . . 1 . . 
+. c 3 3 . . . . . . 
+. X . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . X . . X . c . . 
+
+#navi: 5
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 5, 2 ):Colpita nave THREE
+a . b . . . . c . . 
+. . b X X . . c . . 
+. . . . . . . . . . 
+2 . X a . X . . . 2 
+. . . . . . . 1 . . 
+. c c 3 . . . . . . 
+. X . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . X . . X . c . . 
+
+#navi: 5
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 5, 3 ):Affondata nave THREE
+a . b . . . . c . . 
+. . b X X . . c . . 
+. . . . . . . . . . 
+2 . X a . X . . . 2 
+. . . . . . . 1 . . 
+. c c c . . . . . . 
+. X . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . X . . X . c . . 
+
+#navi: 4
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 3, 0 ):Colpita nave TWO
+a . b . . . . c . . 
+. . b X X . . c . . 
+. . . . . . . . . . 
+b . X a . X . . . 2 
+. . . . . . . 1 . . 
+. c c c . . . . . . 
+. X . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+. . X . . X . c . . 
+
+#navi: 4
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 9, 0 ):Acqua
+a . b . . . . c . . 
+. . b X X . . c . . 
+. . . . . . . . . . 
+b . X a . X . . . 2 
+. . . . . . . 1 . . 
+. c c c . . . . . . 
+. X . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+X . X . . X . c . . 
+
+#navi: 4
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 3, 9 ):Affondata nave TWO
+a . b . . . . c . . 
+. . b X X . . c . . 
+. . . . . . . . . . 
+b . X a . X . . . b 
+. . . . . . . 1 . . 
+. c c c . . . . . . 
+. X . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+X . X . . X . c . . 
+
+#navi: 3
+
+Inserisci una mossa ( x y INVIO)
+Colpo in ( 3, 9 ):Errore!
+a . b . . . . c . . 
+. . b X X . . c . . 
+. . . . . . . . . . 
+b . X a . X . . . b 
+. . . . . . . 1 . . 
+. c c c . . . . . . 
+. X . . . . . . . . 
+. . . 2 . . . . . 1 
+. . . 2 . . . . . . 
+X . X . . X . c . . 
+
+#navi: 3
+
